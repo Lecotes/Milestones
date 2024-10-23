@@ -24,26 +24,47 @@ Backend: Express.js, Node.js, Railway (for ORM and PostgreSQL), Passport.js, We 
 
 ## Features
 
+**Main Features**
 
-### [Name of Feature 1]
+1. **User registration:**
 
-[short description goes here]
+   1. Users can create accounts using their emails and passwords.
+2. **Profile creation:**
 
-[gif goes here]
+   1. Users can add their names, age, or affiliation (university, company, research group etc), location.
+3. **Search functionality:**
 
-### [Name of Feature 2]
+   1. Users can search and add other users as friends.
+4. **Group formation:**
 
-[short description goes here]
+   1. Users can form annotation groups.
+   2. The user can restrict who can participate in a group or assign work to individual users.
+5. **Upload Material:**
 
-[gif goes here]
+   1. Users can upload text, pdfs, or docs and see what they have uploaded.
+   2. Users can also directly write text in the website.
+6. **Adjust Visibility:**
 
-### [Name of Feature 3]
+   1. The user can restrict who, or which group, can annotate this work.
+      1. The user should be able to assign readers, commenters and contributors.
+   2. When uploading material, the upload screen should have a public/restricted switch.
+      1. If public, the material can be seen and commented by anyone registered on the website.
+      2. If restricted, only the restricted groups can see the material.
+7. **Annotate Material**
 
-[short description goes here]
+   1. Users can highlights a certain part of the material.
+   2. Users can write their annotation/note/interpretation for the higlighted section.
+8. **Upvote Downvote**
 
-[gif goes here]
+   1. Users can upvote or downvote the annotations/comments/contributions they see.
+   2. The top voted ones stays up as the main notes for the work which are shown at the top.
+9. **Approvals and Deletions**
 
-### [ADDITIONAL FEATURES GO HERE - ADD ALL FEATURES HERE IN THE FORMAT ABOVE; you will check these off and add gifs as you complete them]
+   1. If users submit to my restricted uploaded work, I can choose to "not approve" or "delete" the commentary.
+   2. I can choose to have only the "approved" comments visible.
+10. **Reporting**
+
+    1. The users can report any inappropriate uploaded work or commentary.
 
 ## Installation Instructions
 
