@@ -26,7 +26,8 @@ Backend: Express.js, Node.js, Railway (for ORM and PostgreSQL), Passport.js, We 
 
 **Main Features**
 
-1. **User registration:**
+1. ✅  **User registration:**
+![Signuo](https://github.com/user-attachments/assets/b0c619fb-51ee-499e-a027-241cce93127e)
 
    1. Users can create accounts using their emails and passwords.
 2. **Profile creation:**
@@ -50,7 +51,8 @@ Backend: Express.js, Node.js, Railway (for ORM and PostgreSQL), Passport.js, We 
    2. When uploading material, the upload screen should have a public/restricted switch.
       1. If public, the material can be seen and commented by anyone registered on the website.
       2. If restricted, only the restricted groups can see the material.
-7. **Annotate Material**
+7. ✅ **Annotate Material**
+![Annotation](https://github.com/user-attachments/assets/c3587a8e-408f-45d0-a0eb-11b0836943f4)
 
    1. Users can highlights a certain part of the material.
    2. Users can write their annotation/note/interpretation for the higlighted section.
