@@ -4,7 +4,7 @@ CodePath WEB103 Final Project
 
 Designed and developed by: Enes Akyuz, Dorisa Shehi, Steven Yang
 
-🔗 Link to deployed app: 
+🔗 Link to deployed app:
 
 ## About
 
