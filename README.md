@@ -4,7 +4,10 @@ CodePath WEB103 Final Project
 
 Designed and developed by: Enes Akyuz, Dorisa Shehi, Steven Yang
 
+🔗 Link to Project Repository: [Lecotes Codebase](https://github.com/Lecotes/Codebase)
+
 🔗 Link to deployed app:
+
 
 ## About
 
