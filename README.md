@@ -39,16 +39,17 @@ Backend: Express.js, Node.js, Railway (for ORM and PostgreSQL), Passport.js, We 
 3. **Search functionality:**
 
    1. Users can search and add other users as friends.
-4. **Group formation:**
-
+4.  Half ✅ **Group formation:**
+![MATERIALS](https://github.com/user-attachments/assets/2a46793b-3985-412d-844c-f3a4f59a5815)
    1. Users can form annotation groups.
-   2. The user can restrict who can participate in a group or assign work to individual users.
-5. **Upload Material:**
+   2. ✅ The user can restrict who can participate in a group or assign work to individual users.
 
+5.  ✅ **Upload Material:**
+![MATERIALS](https://github.com/user-attachments/assets/2a46793b-3985-412d-844c-f3a4f59a5815)
    1. Users can upload text, pdfs, or docs and see what they have uploaded.
    2. Users can also directly write text in the website.
-6. **Adjust Visibility:**
 
+6. **Adjust Visibility:**
    1. The user can restrict who, or which group, can annotate this work.
       1. The user should be able to assign readers, commenters and contributors.
    2. When uploading material, the upload screen should have a public/restricted switch.
@@ -59,8 +60,8 @@ Backend: Express.js, Node.js, Railway (for ORM and PostgreSQL), Passport.js, We 
 
    1. Users can highlights a certain part of the material.
    2. Users can write their annotation/note/interpretation for the higlighted section.
-8. **Upvote Downvote**
-
+8. ✅ **Upvote Downvote**
+![Annotation](https://github.com/user-attachments/assets/c3587a8e-408f-45d0-a0eb-11b0836943f4)
    1. Users can upvote or downvote the annotations/comments/contributions they see.
    2. The top voted ones stays up as the main notes for the work which are shown at the top.
 9. **Approvals and Deletions**
