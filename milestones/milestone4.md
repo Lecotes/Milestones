@@ -23,7 +23,7 @@ We worked seperately a lot, which meant that we were mainly isolated. This cause
 
 ### Did you finish all of your tasks in your sprint plan for this week? If you did not finish all of the planned tasks, how would you prioritize the remaining tasks on your list?
 
-***100%***** *!!!!!* **We finished all of our tasks in the plan for this week. The remaining tasks mainly focus on integration between these differently implemented features and polishing the app. For the remaining tasks, there is only 1 "feature-feature," which is the friend groups formation and assigning to entire groups etc.
+***100%!!!!*** We finished all of our tasks in the plan for this week. The remaining tasks mainly focus on integration between these differently implemented features and polishing the app. For the remaining tasks, there is only 1 "feature-feature," which is the friend groups formation and assigning to entire groups etc.
 
 ### Which features and user stories would you consider “at risk”? How will you change your plan if those items remain “at risk”?
 
