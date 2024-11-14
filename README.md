@@ -30,21 +30,24 @@ Backend: Express.js, Node.js, Railway (for ORM and PostgreSQL), Passport.js, We 
 **Main Features**
 
 1. ✅  **User registration:**
+
 ![Signuo](https://github.com/user-attachments/assets/b0c619fb-51ee-499e-a027-241cce93127e)
 
    1. Users can create accounts using their emails and passwords.
-2. **Profile creation:**
+3. **Profile creation:**
 
    1. Users can add their names, age, or affiliation (university, company, research group etc), location.
-3. **Search functionality:**
+4. **Search functionality:**
 
    1. Users can search and add other users as friends.
-4.  Half ✅ **Group formation:**
+5.  Half ✅ **Group formation:**
+   
 ![MATERIALS](https://github.com/user-attachments/assets/2a46793b-3985-412d-844c-f3a4f59a5815)
    1. Users can form annotation groups.
    2. ✅ The user can restrict who can participate in a group or assign work to individual users.
 
 5.  ✅ **Upload Material:**
+   
 ![MATERIALS](https://github.com/user-attachments/assets/2a46793b-3985-412d-844c-f3a4f59a5815)
    1. Users can upload text, pdfs, or docs and see what they have uploaded.
    2. Users can also directly write text in the website.
@@ -56,19 +59,21 @@ Backend: Express.js, Node.js, Railway (for ORM and PostgreSQL), Passport.js, We 
       1. If public, the material can be seen and commented by anyone registered on the website.
       2. If restricted, only the restricted groups can see the material.
 7. ✅ **Annotate Material**
+   
 ![Annotation](https://github.com/user-attachments/assets/c3587a8e-408f-45d0-a0eb-11b0836943f4)
 
    1. Users can highlights a certain part of the material.
    2. Users can write their annotation/note/interpretation for the higlighted section.
-8. ✅ **Upvote Downvote**
+9. ✅ **Upvote Downvote**
+    
 ![Annotation](https://github.com/user-attachments/assets/c3587a8e-408f-45d0-a0eb-11b0836943f4)
    1. Users can upvote or downvote the annotations/comments/contributions they see.
    2. The top voted ones stays up as the main notes for the work which are shown at the top.
-9. **Approvals and Deletions**
+11. **Approvals and Deletions**
 
    1. If users submit to my restricted uploaded work, I can choose to "not approve" or "delete" the commentary.
    2. I can choose to have only the "approved" comments visible.
-10. **Reporting**
+11. **Reporting**
 
     1. The users can report any inappropriate uploaded work or commentary.
 
