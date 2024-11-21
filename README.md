@@ -6,8 +6,7 @@ Designed and developed by: Enes Akyuz, Dorisa Shehi, Steven Yang
 
 🔗 Link to Project Repository: [Lecotes Codebase](https://github.com/Lecotes/Codebase)
 
-🔗 Link to deployed app:
-
+🔗 Link to deployed app: [https://lecotes.onrender.com/](https://lecotes.onrender.com/)
 
 ## About
 
@@ -23,60 +22,56 @@ The main inspiration came from the lyrics website "[Genius](https://genius.com/L
 
 Frontend: React, Tailwind, Sass, HTML-CSS-Js
 
-Backend: Express.js, Node.js, Railway (for ORM and PostgreSQL), Passport.js, We can also use Supabase for ORM
+Backend: Express.js, Node.js, Railway (for ORM and PostgreSQL), Passport.js
 
 ## Features
 
 **Main Features**
 
-1. ✅  **User registration:**
+1. **Signup**
 
-![Signuo](https://github.com/user-attachments/assets/b0c619fb-51ee-499e-a027-241cce93127e)
+Users can create an account on the application.
 
-   1. Users can create accounts using their emails and passwords.
-3. **Profile creation:**
+2. **Login**
 
-   1. Users can add their names, age, or affiliation (university, company, research group etc), location.
-4. **Search functionality:**
+Users can login to the application with a previously created account.
 
-   1. Users can search and add other users as friends.
-5.  Half ✅ **Group formation:**
-   
-![MATERIALS](https://github.com/user-attachments/assets/2a46793b-3985-412d-844c-f3a4f59a5815)
-   1. Users can form annotation groups.
-   2. ✅ The user can restrict who can participate in a group or assign work to individual users.
+3. **Add Text**
 
-5.  ✅ **Upload Material:**
-   
-![MATERIALS](https://github.com/user-attachments/assets/2a46793b-3985-412d-844c-f3a4f59a5815)
-   1. Users can upload text, pdfs, or docs and see what they have uploaded.
-   2. Users can also directly write text in the website.
+Users can upload their texts.
 
-6. **Adjust Visibility:**
-   1. The user can restrict who, or which group, can annotate this work.
-      1. The user should be able to assign readers, commenters and contributors.
-   2. When uploading material, the upload screen should have a public/restricted switch.
-      1. If public, the material can be seen and commented by anyone registered on the website.
-      2. If restricted, only the restricted groups can see the material.
-7. ✅ **Annotate Material**
-   
-![Annotation](https://github.com/user-attachments/assets/c3587a8e-408f-45d0-a0eb-11b0836943f4)
+4. **Add Friends**
 
-   1. Users can highlights a certain part of the material.
-   2. Users can write their annotation/note/interpretation for the higlighted section.
-9. ✅ **Upvote Downvote**
-    
-![Annotation](https://github.com/user-attachments/assets/c3587a8e-408f-45d0-a0eb-11b0836943f4)
-   1. Users can upvote or downvote the annotations/comments/contributions they see.
-   2. The top voted ones stays up as the main notes for the work which are shown at the top.
-11. **Approvals and Deletions**
+Users can add friends and view their friends list.
 
-   1. If users submit to my restricted uploaded work, I can choose to "not approve" or "delete" the commentary.
-   2. I can choose to have only the "approved" comments visible.
-11. **Reporting**
+5. **Share Text**
 
-    1. The users can report any inappropriate uploaded work or commentary.
+Users can share texts with other people to annotate during file creation.
+
+6. **Add/delete/edit Annotation**
+
+Users can add/delete/edit annotations to the text by highlighting a section and adding their annotations.
+
+7. **Merge Annotation**
+
+Annotations are automatically merged if there are overlapping annotations.
+
+8. **Add/delete/edit Replies**
+
+Users that have access to the text can reply to annotations, and delete/edit them afterwards.
+
+9. **Upvote Downvote System**
+
+Users can upvote or downvote an annotation, each unique to only once per reply/annotation. The annotation with the most karma stays on top.
+
+10. **Search Features**
+
+Users can search files or friends (friends can be searched both during the share file or friendslist).
 
 ## Installation Instructions
 
-[instructions go here]
+A deployed version is in this link: [Lecotes Codebase](https://github.com/Lecotes/Codebase)
+
+For seperate versions that run on Render, please visit: [Express backend](), [React frontend](https://github.com/Lecotes/frontend_deploy)
+
+To run the code, you need to change the addresses in the url's since these are deployed versions. An environment variable is recommended for the API calls. Also, have a Railway database key, in which, resetDatabase.js in the backend can create tables. Other than these `npm install` and `npm start` for both `backend` and `frontend` directories should do the trick!
